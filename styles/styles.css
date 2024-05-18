@@ -90,3 +90,36 @@ header .header{
     margin-top: 0.3rem;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.mid-low{
+    display: flex;
+}
+.letters-mid-low{
+    font-size: 2rem;
+    margin-top: 10rem;
+    margin-left: 7.6rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.letters-mid-low p{
+    margin-top: 1.5rem;
+    margin-left: 0.2rem;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mid-low img{
+    justify-content: right;
+    margin-left: 5rem;
+    margin-top: 10rem;
+    width: 27rem;
+
+}
+.Learn-More button{
+    margin-left: 0.2rem;
+    margin-top: 3rem;
+    background-color: rgb(56, 59, 214);
+    border-radius: 3rem;
+    width: 9rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
