@@ -92,12 +92,14 @@ header .header{
 }
 .mid-low{
     display: flex;
+   height:  100%;
 }
 .letters-mid-low{
     font-size: 2rem;
     margin-top: 10rem;
     margin-left: 7.6rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
 }
 .letters-mid-low p{
     margin-top: 1.5rem;
@@ -107,11 +109,45 @@ header .header{
 }
 
 .mid-low img{
-    justify-content: right;
+    justify-content:end;
     margin-left: 5rem;
     margin-top: 10rem;
     width: 27rem;
+    position: relative;
+}
+.Learn-More button{
+    margin-left: 0.2rem;
+    margin-top: 3rem;
+    background-color: rgb(56, 59, 214);
+    border-radius: 3rem;
+    width: 9rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.triangulo{
+    margin-top: 12rem;
+    border-left: 1263px solid transparent;
+    border-bottom: 275px solid aqua;
+    position: absolute;
+}
 
+
+
+
+.taper-low{
+    display: flex;
+   height:  100%;
+   background-color: aqua;
+   margin-top: 3.33rem;
+}
+
+.taper-low img{
+    justify-content:end;
+    margin-left: 5rem;
+    margin-top: 10rem;
+    width: 27rem;
+    position: relative;
 }
 .Learn-More button{
     margin-left: 0.2rem;
