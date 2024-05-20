@@ -96,23 +96,23 @@ header .header{
 }
 .letters-mid-low{
     font-size: 2rem;
-    margin-top: 10rem;
-    margin-left: 7.6rem;
+    margin-top: 9rem;
+    margin-left: 14rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: relative;
 }
 .letters-mid-low p{
     margin-top: 1.5rem;
     margin-left: 0.2rem;
-    font-size: 16px;
+    font-size: 22px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .mid-low img{
     justify-content:end;
-    margin-left: 5rem;
-    margin-top: 10rem;
-    width: 27rem;
+    margin-left: 14rem;
+    margin-top: 8rem;
+    width: 30rem;
     position: relative;
 }
 .Learn-More button{
@@ -125,11 +125,13 @@ header .header{
     font-size: 1rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.triangulo{
-    margin-top: 12rem;
-    border-left: 1263px solid transparent;
-    border-bottom: 275px solid aqua;
+.trapecio {
+    width: 118.9rem;
+    height: 38rem;
+    background-color: aqua;
+    clip-path: polygon(0 51%, 100% 0%, 100% 100%, 0% 100%);
     position: absolute;
+    margin-top: 9.2rem;
 }
 
 
@@ -144,9 +146,9 @@ header .header{
 
 .taper-low img{
     justify-content:end;
-    margin-left: 5rem;
+    margin-left: 13rem;
     margin-top: 10rem;
-    width: 27rem;
+    width: 35rem;
     position: relative;
 }
 .Learn-More button{
@@ -158,4 +160,18 @@ header .header{
     height: 2.5rem;
     font-size: 1rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.letters-taper-low{
+    font-size: 2rem;
+    margin-top:11rem;
+    margin-left: 14rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+}
+.letters-taper-low p{
+    margin-top: 1.5rem;
+    margin-left: 0.2rem;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
