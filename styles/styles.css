@@ -180,6 +180,13 @@ header .header{
     text-align: center;
     margin-top: 4rem;
 }
+
+.price1{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 25rem;
+    height: 27rem;
+}
 .pricings h2{
     font-size: 3.3rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -216,7 +223,7 @@ header .header{
 .price2{
     background-color: aqua;
     border-radius: 5px;
-    width: 20rem;
+    width: 25rem;
     height: 27rem;
     color: white;
 }
@@ -240,6 +247,12 @@ header .header{
     margin-top: 1rem;
 }
 
+.price3{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 25rem;
+    height: 27rem;
+}
 
 .price3 h5{
     font-size: 2rem;
@@ -281,4 +294,28 @@ header .header{
     height: 2.5rem;
     font-size: 1rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footer-basic{
+    display: flex;
+    background-color: aqua;
+    margin-top: 5rem;
+    height: 12rem;
+    width: 100%;
+    align-items: center;
+}
+.footer-basic img{
+    width: 9rem;
+    height: 5rem;
+    margin-left: 10rem;
+}   
+
+
+.form{
+    background-image: url('/images/contact-bk.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40rem;
+    color: aliceblue;
+    align-items: center;
 }
