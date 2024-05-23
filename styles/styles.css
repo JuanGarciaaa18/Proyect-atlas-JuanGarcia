@@ -318,4 +318,42 @@ header .header{
     height: 40rem;
     color: aliceblue;
     align-items: center;
+    display: flex;
+}
+
+.form .Contact-us{
+    padding-top: 7rem;
+    padding-left: 10rem;
+    font-size: 1.3rem;
+}
+.form .Contact-us h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4rem;
+}
+.form .Contact-us p{
+    margin-top: 3rem;
+}
+.inputs{
+padding-left: 20rem;
+display: flex;
+color: aqua;
+height: 15rem;
+
+}
+.inputs input{
+    background-color: transparent;
+    border-radius: 20rem;
+    border-color: aqua;
+}
+.inputs .Email{
+    margin-left: 3rem;
+}
+
+.mensaje{
+    display: flex;
+    margin-top: 2rem;
+}
+.mensaje input{
+    height: rem;
+    width: 35rem;
 }
