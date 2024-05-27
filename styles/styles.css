@@ -26,11 +26,11 @@ header .header{
     
 }
 .header img{
-    width: 4rem;
+    width: 7rem;
     border-radius: 2rem;
     margin-top: 4rem;
-    margin-left: 6rem;
-    height: 4rem;
+    margin-left: 10rem;
+    height: 7rem;
     display: flex;
     align-items: center;
 }
@@ -54,7 +54,7 @@ header .header{
 .get-started button{
     margin-left: 7.6rem;
     margin-top: 3rem;
-    background-color: aqua;
+    background-color:#00ffaa;
     border-radius: 3rem;
     width: 9rem;
     height: 3rem;
@@ -128,7 +128,7 @@ header .header{
 .trapecio {
     width: 118.9rem;
     height: 38rem;
-    background-color: aqua;
+    background-color: #00ffaa;
     clip-path: polygon(0 51%, 100% 0%, 100% 100%, 0% 100%);
     position: absolute;
     margin-top: 9.2rem;
@@ -139,26 +139,28 @@ header .header{
 .taper-low{
     display: flex;
    height:  100%;
-   background-color: aqua;
+   background-color: #00ffaa;
    margin-top: 3.33rem;
 }
 
 .taper-low img{
     justify-content:end;
     margin-left: 13rem;
-    margin-top: 10rem;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
     width: 35rem;
     position: relative;
 }
 .Learn-More button{
     margin-left: 0.2rem;
     margin-top: 3rem;
-    background-color: rgb(56, 59, 214);
+    background-color: #001231;
     border-radius: 3rem;
     width: 9rem;
     height: 2.5rem;
     font-size: 1rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
 }
 
 .letters-taper-low{
@@ -221,7 +223,7 @@ header .header{
 
 
 .price2{
-    background-color: aqua;
+    background-color: #001231;
     border-radius: 5px;
     width: 25rem;
     height: 27rem;
@@ -278,7 +280,7 @@ header .header{
 .Get-Free button{
     margin-left: 0.2rem;
     margin-top: 3rem;
-    background-color: rgb(0, 17, 255);
+    background-color:transparent;
     border-radius: 3rem;
     width: 9rem;
     height: 2.5rem;
@@ -288,7 +290,7 @@ header .header{
 .Get-Free1 button{
     margin-left: 0.2rem;
     margin-top: 3rem;
-    background-color: rgb(255, 0, 0);
+    background-color:#00ffaa;
     border-radius: 3rem;
     width: 9rem;
     height: 2.5rem;
@@ -297,7 +299,7 @@ header .header{
 }
 .footer-basic{
     display: flex;
-    background-color: aqua;
+    background-color:#dedfdf;
     margin-top: 5rem;
     height: 12rem;
     width: 100%;
@@ -338,13 +340,13 @@ header .header{
 .inputs{
 padding-left: 12rem;
 display: table-row-group;
-color: aqua;
+color: #00ffaa;
 height: 15rem;
 
 }
 .inputs input{
     background-color: transparent;
-    border-color: aqua;
+    border-color:#00ffaa;
     border-radius: 1rem;
     height: 3rem;
     width: 20rem;
@@ -371,7 +373,7 @@ display: flex;
 .submit button{
     margin-left: 2rem;
     margin-top: 2rem;
-    background-color:aqua;
+    background-color:#00ffaa;
     border-radius: 3rem;
     width: 43rem;
     height: 3rem;
@@ -379,13 +381,52 @@ display: flex;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.footer-down{
+
+
+footer {
     display: flex;
-    background-color: aqua;
-    height: 8rem;
-    width: 100%;  align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: #001231;
+    height: 6rem;
 }
 
-.footer-down .copyrigth{
-    margin-left: 3rem;
+footer p {
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 2.5rem;
+    justify-content: left;
+    margin-left: 7rem;
+}
+
+footer .social-icon {
+    position: relative;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 12rem;
+}
+
+footer .social-icon li {
+    list-style: none;
+    background-color: rgb(255, 255, 255);
+    margin: 0px 10px;
+    border-radius: 70%;
+    padding: 3px;
+    height: 35px;
+    width: 40px;
+    align-items: center;
+}
+
+footer .social-icon li a {
+    color: #fff;
+    margin: 10px;
+}
+
+footer .social-icon li  img {
+    padding-top: 0.3rem;
+    padding-left: 0.5rem;
+    justify-content: center;
+   justify-items: center;
 }
