@@ -322,7 +322,7 @@ header .header{
 }
 
 .form .Contact-us{
-    padding-top: 7rem;
+    padding-top: 1rem;
     padding-left: 10rem;
     font-size: 1.3rem;
 }
@@ -333,27 +333,59 @@ header .header{
 .form .Contact-us p{
     margin-top: 3rem;
 }
+
+    
 .inputs{
-padding-left: 20rem;
-display: flex;
+padding-left: 12rem;
+display: table-row-group;
 color: aqua;
 height: 15rem;
 
 }
 .inputs input{
     background-color: transparent;
-    border-radius: 20rem;
     border-color: aqua;
-}
-.inputs .Email{
-    margin-left: 3rem;
+    border-radius: 1rem;
+    height: 3rem;
+    width: 20rem;
 }
 
-.mensaje{
-    display: flex;
-    margin-top: 2rem;
+.inputs label{
+    margin-left: 2rem;
 }
-.mensaje input{
-    height: rem;
-    width: 35rem;
+
+.inputs .nameandemail {
+    display: flex;
+}
+
+.inputs .message{
+display: flex;    
+    margin-top: 2rem;   
+}
+
+.message input{
+    height: 9rem;
+    width: 42.4rem;
+}
+
+.submit button{
+    margin-left: 2rem;
+    margin-top: 2rem;
+    background-color:aqua;
+    border-radius: 3rem;
+    width: 43rem;
+    height: 3rem;
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footer-down{
+    display: flex;
+    background-color: aqua;
+    height: 8rem;
+    width: 100%;  align-items: center;
+}
+
+.footer-down .copyrigth{
+    margin-left: 3rem;
 }
